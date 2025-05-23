@@ -1,7 +1,7 @@
 'use client'
 
 export default function BigComponent() {
-  const bigList = Array.from({ length: 332000 }, (_, i) => `Item ${i} - Lorem ipsum dolor sit amet, consectetur adipiscing elit.`)
+  const bigList = Array.from({ length: 132000 }, (_, i) => `Item ${i} - Lorem ipsum dolor sit amet, consectetur adipiscing elit.`)
 
   return (
     <div>
