@@ -13,7 +13,7 @@
   },
   "upload_source_maps": true,
   "env": {
-    "staging": {
+    "test": {
       "workers_dev": true
     },
     "production": {
