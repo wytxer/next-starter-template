@@ -10,7 +10,7 @@ export default function BigComponent() {
 
   return (
     <div>
-      <h2>Big Component Loaded</h2>
+      <h2>Big Component Loaded 122</h2>
       <ul>
         {bigList.map((item, idx) => (
           <li key={idx}>{item}</li>
