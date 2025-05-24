@@ -14,7 +14,7 @@
   "upload_source_maps": true,
   "route": "chattts.net",
   "env": {
-    "staging": {
+    "dev": {
       "workers_dev": true
     },
     "prod": {}
