@@ -15,6 +15,7 @@
   "route": [
     {
       "pattern": "chattts.net",
+      "zone_name": "chattts.net",
       "custom_domain": true
     }
   ],
@@ -24,6 +25,7 @@
         "route": [
         {
           "pattern": "dev.chattts.net",
+          "zone_name": "chattts.net",
           "custom_domain": true
         }
       ]
