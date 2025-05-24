@@ -12,16 +12,10 @@
     "enabled": true
   },
   "upload_source_maps": true,
-  "route": {
-    "pattern": "chattts.net/*",
-    "zone_name": "chattts.net"
-  },
+  "route": "chattts.net",
   "env": {
     "staging": {
-      "route": {
-        "pattern": "dev.chattts.net/*",
-        "zone_name": "chattts.net"
-      }
+      "workers_dev": true
     },
     "prod": {}
   }
