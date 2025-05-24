@@ -1,7 +1,7 @@
 {
   "name": "next-starter-template",
   "main": ".open-next/worker.js",
-  "compatibility_date": "2025-04-01",
+  "compatibility_date": "2025-05-05",
   "compatibility_flags": ["nodejs_compat"],
   "minify": true,
   "assets": {
@@ -11,5 +11,18 @@
   "observability": {
     "enabled": true
   },
-  "upload_source_maps": true
+  "upload_source_maps": true,
+  "route": {
+    "pattern": "chattts.net/*",
+    "zone_name": "chattts.net"
+  },
+  "env": {
+    "staging": {
+      "name": "next-starter-template-dev",
+      "route": {
+        "pattern": "dev.chattts.net/*",
+        "zone_name": "chattts.net"
+      }
+    }
+  }
 }
