@@ -4,7 +4,7 @@
 // todo 目前的 api 写法打包会报错
 
 export default function BigComponent() {
-  const bigList = Array.from({ length: 132000 }, (_, i) => `Item ${i} - Lorem ipsum dolor sit amet, consectetur adipiscing elit.`)
+  const bigList = Array.from({ length: 10 }, (_, i) => `Item ${i} - Lorem ipsum dolor sit amet, consectetur adipiscing elit.`)
 
   return (
     <div>
