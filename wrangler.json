@@ -18,11 +18,11 @@
   },
   "env": {
     "staging": {
-      "name": "next-starter-template-dev",
       "route": {
         "pattern": "dev.chattts.net/*",
         "zone_name": "chattts.net"
       }
-    }
+    },
+    "prod": {}
   }
 }
