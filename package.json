@@ -35,7 +35,7 @@
     "cf-typegen": "wrangler types --env-interface CloudflareEnv env.d.ts",
     "check": "opennextjs-cloudflare build && tsc && wrangler deploy --dry-run",
     "deploy": "opennextjs-cloudflare build && wrangler deploy --env production",
-    "deploy:dev": "opennextjs-cloudflare build && wrangler deploy --env staging",
+    "deploy:dev": "opennextjs-cloudflare build && wrangler deploy --env test",
     "dev": "next dev",
     "lint": "next lint",
     "preview": "opennextjs-cloudflare build && wrangler dev",
